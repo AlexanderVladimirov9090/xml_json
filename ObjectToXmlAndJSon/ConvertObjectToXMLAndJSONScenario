@@ -1,0 +1,19 @@
+Users To XML
+
+happyPath convert to XML And return true. Done
+object name null return false. Done
+last name null return false. Done
+age zero return false. Done
+path not given null path given. Done
+many converted.  Done.
+read file.
+
+Users to JSON
+
+happyPath convert to JSON.
+object name null return false.
+last name null return false.
+age zero null return false.
+path not given null path given.
+many converted.
+read file.

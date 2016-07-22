@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<users>
+    <user xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="user">
+        <age>1</age>
+        <firstName>Go6o</firstName>
+        <lastName>Go6ev</lastName>
+    </user>
+    <user xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="user">
+        <age>3</age>
+        <firstName>Go6o1</firstName>
+        <lastName>Go6ev1</lastName>
+    </user>
+    <user xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="user">
+        <age>5</age>
+        <firstName>Go6o2</firstName>
+        <lastName>Go6ev2</lastName>
+    </user>
+    <user xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="user">
+        <age>6</age>
+        <firstName>Go6o3</firstName>
+        <lastName>Go6ev3</lastName>
+    </user>
+</users>

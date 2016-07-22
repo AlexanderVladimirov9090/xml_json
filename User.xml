@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<users>
+    <user>
+        <age>17</age>
+        <firstName>Pesho</firstName>
+        <lastName>Ti</lastName>
+    </user>
+    <user>
+        <age>19</age>
+        <firstName>Go6o</firstName>
+        <lastName>Go6o</lastName>
+    </user>
+    <user>
+        <age>23</age>
+        <firstName>Go6oa</firstName>
+        <lastName>Go6oa</lastName>
+    </user>
+</users>
