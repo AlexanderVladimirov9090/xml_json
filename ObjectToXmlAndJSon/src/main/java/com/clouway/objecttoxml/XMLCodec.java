@@ -15,11 +15,11 @@ import java.io.File;
 public class XMLCodec {
 
   /**
-   * Creates xml of object
+   * Creates xml file and stores obejct.
    *
    * @param users wrapper for users.
    * @param path  for file to be written on.
-   * @return
+   * @return true if file is created.
    * @throws JAXBException
    */
   public boolean createXML(Users users, String path) throws JAXBException {
@@ -32,6 +32,12 @@ public class XMLCodec {
     return true;
   }
 
+  /**
+   * Creates objects from xml file.
+   * @param path of xml file.
+   * @return object.
+   * @throws JAXBException
+   */
   public Users objectFromXML(String path) throws JAXBException {
 
     JAXBContext jaxbContext = JAXBContext.newInstance(com.clouway.objecttoxml.Users.class, com.clouway.objecttoxml.User.class);
