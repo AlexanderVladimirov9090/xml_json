@@ -24,8 +24,8 @@ public class JSONCodec {
    *
    * @param users wrapper for user object.
    * @param path  of json file.
-   * @return
-    */
+   * @return true if file is created.
+   */
   public boolean createJSON(Users users, String path) {
     if (path.length() == 0) {
       return false;
@@ -47,9 +47,9 @@ public class JSONCodec {
   }
 
   /**
-   *
-   * @param path
-   * @return
+   * Reads form JSON file and creates object.
+   * @param path of file.
+   * @return object from json file.
    * @throws FileNotFoundException
    */
   public Users objectFromJSON(String path) throws FileNotFoundException {

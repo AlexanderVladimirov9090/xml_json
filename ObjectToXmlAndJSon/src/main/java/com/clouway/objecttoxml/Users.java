@@ -26,6 +26,12 @@ public class Users <T> {
     this.users = users;
   }
 
+  /**
+   * Adds user to users list.
+   * @param firstName of user.
+   * @param lastName of user.
+   * @param age of user.
+   */
   public void addUser(String firstName , String lastName, int age ){
     T user = (T) new User(firstName,lastName,age);
     users.add(user);
