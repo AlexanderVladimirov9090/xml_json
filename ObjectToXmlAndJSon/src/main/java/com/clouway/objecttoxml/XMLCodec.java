@@ -23,7 +23,6 @@ public class XMLCodec {
    * @throws JAXBException
    */
   public boolean createXML(Users users, String path) throws JAXBException {
-
     JAXBContext jaxbContext = JAXBContext.newInstance(com.clouway.objecttoxml.Users.class, com.clouway.objecttoxml.User.class);
     Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
     jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
@@ -40,7 +39,6 @@ public class XMLCodec {
    * @throws JAXBException
    */
   public Users objectFromXML(String path) throws JAXBException {
-
     JAXBContext jaxbContext = JAXBContext.newInstance(com.clouway.objecttoxml.Users.class, com.clouway.objecttoxml.User.class);
     Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
     Users users = (Users) unmarshaller.unmarshal(new File(path));

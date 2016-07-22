@@ -30,6 +30,7 @@ public class JSONCodec {
     if (path.length() == 0) {
       return false;
     }
+
     try {
       Writer writer = new FileWriter(path);
       Gson gson = new Gson();
@@ -54,7 +55,6 @@ public class JSONCodec {
    * @throws FileNotFoundException
    */
   public Users objectFromJSON(String path) throws FileNotFoundException {
-
     BufferedReader br = new BufferedReader(new FileReader(path));
     Gson gson = new GsonBuilder().create();
 

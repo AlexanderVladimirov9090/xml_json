@@ -34,8 +34,9 @@ public class Users<T> {
    * @param age       of user.
    */
   public void addUser(String firstName, String lastName, int age) {
-    T user = (T) new User(firstName, lastName, age);
-    users.add(user);
 
+    T user = (T) new User(firstName, lastName, age);
+
+    users.add(user);
   }
 }

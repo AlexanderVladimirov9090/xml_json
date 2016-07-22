@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlElement;
  *         <alexandervladimirov1902@gmail.com>
  */
 
-public class User{
+public class User {
   private String firstName;
   private String lastName;
   private int age;
@@ -18,7 +18,7 @@ public class User{
 
   }
 
-  public User(String firstName, String lastName,int age) {
+  public User(String firstName, String lastName, int age) {
     this.firstName = firstName;
     this.age = age;
     this.lastName = lastName;
