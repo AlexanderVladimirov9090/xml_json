@@ -14,7 +14,7 @@ import java.util.List;
  */
 @XmlRootElement(name = "users")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Users <T> {
+public class Users<T> {
   @XmlElement(name = "user")
   public List<T> users;
 
@@ -28,12 +28,13 @@ public class Users <T> {
 
   /**
    * Adds user to users list.
+   *
    * @param firstName of user.
-   * @param lastName of user.
-   * @param age of user.
+   * @param lastName  of user.
+   * @param age       of user.
    */
-  public void addUser(String firstName , String lastName, int age ){
-    T user = (T) new User(firstName,lastName,age);
+  public void addUser(String firstName, String lastName, int age) {
+    T user = (T) new User(firstName, lastName, age);
     users.add(user);
 
   }

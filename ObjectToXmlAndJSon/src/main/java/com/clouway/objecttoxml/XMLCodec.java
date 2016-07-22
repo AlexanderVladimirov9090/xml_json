@@ -34,6 +34,7 @@ public class XMLCodec {
 
   /**
    * Creates objects from xml file.
+   *
    * @param path of xml file.
    * @return object.
    * @throws JAXBException

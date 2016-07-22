@@ -48,6 +48,7 @@ public class JSONCodec {
 
   /**
    * Reads form JSON file and creates object.
+   *
    * @param path of file.
    * @return object from json file.
    * @throws FileNotFoundException
