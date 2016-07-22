@@ -12,6 +12,10 @@ out/
 *.ear
 
 # User-specific stuff:
+<<<<<<< HEAD
+=======
+.idea
+>>>>>>> 1156c14... Done.
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/dictionaries
@@ -24,3 +28,23 @@ out/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
+=======
+/ObjectToXmlAndJSon/ConvertObjectToXMLAndJSONScenario
+ObjectToXmlAndJSon/build/
+ObjectToXmlAndJSon/src/main/resources/
+ObjectToXmlAndJSon/src/test/resources/
+<<<<<<< HEAD
+>>>>>>> 1156c14... Done.
+=======
+/objectser/ConvertObjectToXMLAndJSONScenario
+/userdata/PrinterScenarios
+/TestFolder/
+<<<<<<< HEAD
+>>>>>>> b191ef8... Done.
+=======
+/object.xml
+/object.json
+/object2.xml
+/object3.xml
+>>>>>>> af5c18e... Added few file to gitignore.
