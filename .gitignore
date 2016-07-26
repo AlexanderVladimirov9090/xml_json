@@ -48,3 +48,17 @@ ObjectToXmlAndJSon/src/test/resources/
 /object2.xml
 /object3.xml
 >>>>>>> af5c18e... Added few file to gitignore.
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+objectser/build/
+objectser/src/main/resources/
+objectser/src/test/resources/
+userdata/build/classes/
+userdata/build/dependency-cache/
+userdata/build/libs/
+userdata/build/tmp/compileJava/
+userdata/lib/
+userdata/src/main/resources/
+userdata/src/test/resources/
